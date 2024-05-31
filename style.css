@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(ATM.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(148, 246, 248);
+    padding: 70px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(75, 72, 96, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #333;
+    font-size: 50px;
+}
+.options button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #c8cb1b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.options button:hover {
+    background-color: #eb0a0a;
+}
+.section {
+    display: none;
+}
+.section h2 {
+    color: #333;
+}
+.section input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.section button {
+    width: 80%;
+    padding: 10px;
+    background-color:#480ebb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.section button:hover {
+    background-color: #68f327;
+}
